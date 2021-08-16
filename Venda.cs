@@ -79,7 +79,7 @@ namespace projeto01
             conn.Open();
             cmd.ExecuteNonQuery();
             conn.Close();
-
+            //
             int aio = Convert.ToInt32(lbMOstraP.Text);
             int ad = Convert.ToInt32(txtVendaqtd.Text);
             int soma = aio * ad;
